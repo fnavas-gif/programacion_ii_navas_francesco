@@ -1,0 +1,102 @@
+# ============================================================
+# PROGRAMACIÓN II - Python / Django / Odoo
+# ============================================================
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Django
+# -------------------------
+
+# Base de datos local
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos generados por Django
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# Coverage / testing
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# -------------------------
+# Odoo
+# -------------------------
+
+# Archivos temporales / caché de Python
+**/__pycache__/
+**/*.pyc
+
+# Logs locales de Odoo
+odoo.log
+*.log
+
+# Base de datos / archivos locales de desarrollo
+*.dump
+*.backup
+
+# Filestore generado localmente por Odoo
+filestore/
+
+# -------------------------
+# Herramientas de desarrollo
+# -------------------------
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# Sistema operativo
+# -------------------------
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# -------------------------
+# Archivos temporales
+# -------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
