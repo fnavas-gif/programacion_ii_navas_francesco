@@ -12,3 +12,4 @@ if zona in precios_por_zona:
     print(f"El costo final del envío es: ${costo_total:.2f}")
 else:
     print("Error: la zona ingresada no es válida. Debe ser 1, 2 o 3.")
+    

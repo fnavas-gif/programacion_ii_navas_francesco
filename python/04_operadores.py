@@ -134,3 +134,4 @@ resultado_2 = (10 + 5) * 2
 print("Resultado 2:", resultado_2)
 resultado_3 = 10 + 5 * 2 ** 2
 print("Resultado 3:", resultado_3)
+

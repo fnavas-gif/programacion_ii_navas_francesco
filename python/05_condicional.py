@@ -44,3 +44,4 @@ if tipo_repuesto in ("motor", "ala", "escudo"):
         print("No tienes suficientes créditos para comprar el repuesto")
 else:
     print("Tipo de repuesto no válido")
+    
